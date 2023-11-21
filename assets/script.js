@@ -16,3 +16,19 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
+
+// * On crée un événement: lorsque on clique sur les flèches, cela gère le changement d'images dans le carrousel. * //
+
+let flecheLeft = document.getElementById("move_left");
+flecheLeft.addEventListener("click", () => {
+	console.log("Glisser vers l'image à gauche")
+});
+
+let flecheRight = document.getElementById("move_right");
+flecheRight.addEventListener("click", () => {
+	console.log("Glisser vers l'image à droite")
+});
+
+
+
+
